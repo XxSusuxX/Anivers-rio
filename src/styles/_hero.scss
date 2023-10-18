@@ -1,9 +1,8 @@
 @use 'variables';
 
 .hero{
-    padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
+    background-image: url(../images/fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -25,17 +24,25 @@
 
     &__text{
         text-align: center;
-        margin-top: 64px;
         margin-bottom: 64px;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 40px;
         line-height: 56px;
+        font-family: 'Black Ops One';
+        color: #8fc8d3;
+    
+        span{
+            font-family: 'Black Ops One';
+            color: #8fc8d3;
+        }
     }
 
     &__logo{
         margin: 0 auto;
-        height: 80px;
+        height: 100%;
         display: block;
+        color: white;
+        opacity: .6;
     }
 
     @media (max-width: 640px){
